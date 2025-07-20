@@ -31,19 +31,28 @@ a {
     color: #F9FAF8;
 }
 
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
 /*
-Class Selectors 
+Class Selectors
 */
 
-.padding {
-    padding-left: 200px;
-    padding-right: 200px;
+.header,
+.hero-main-text,
+.hero-secondary-text,
+.hero {
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
 
 .header {
-    color: #F9FAF8;
-    background-color: #1F2937;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,4 +61,30 @@ Class Selectors
 .title {
     font-size: 24px;
     font-weight: bold;
+}
+
+.hero {
+    background-color: #1F2937;
+
+    display: flex;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+
+    color: #F9FAF8;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+}
+
+.hero-right {
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
