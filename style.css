@@ -175,3 +175,12 @@ Class Selectors
 .call-to-action-banner button {
     border-color: #E5E7EB;
 }
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
