@@ -39,6 +39,8 @@ button {
     width: 100px;
     padding: 5px;
     border-radius: 10px;
+
+    border-style: solid;
 }
 
 /*
@@ -145,4 +147,31 @@ Class Selectors
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action {
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-banner {
+    background-color: #3882F6;
+
+    width: 750px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action-banner button {
+    border-color: #E5E7EB;
 }
