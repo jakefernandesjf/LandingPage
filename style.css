@@ -1,3 +1,55 @@
 /*
 style.css
 */
+
+
+/*
+Type Selectors
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+
+    color: #F9FAF8;
+}
+
+/*
+Class Selectors 
+*/
+
+.padding {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    color: #F9FAF8;
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
