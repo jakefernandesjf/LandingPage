@@ -40,6 +40,7 @@ button {
     padding: 5px;
     border-radius: 10px;
 }
+
 /*
 Class Selectors
 */
@@ -87,4 +88,41 @@ Class Selectors
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded-image {
+    height: 100px;
+    width: 100px;
+
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
